@@ -1,0 +1,11 @@
+block=Block(0, 700, 1100, 50, engine)
+block=Block(-50, 0, 50, 700, engine)
+block=Block(1100,0, 50, 700, engine)
+
+block=Dynamic()
+block=Dynamic(y = 550)
+block=Dynamic(y = 350)
+block=Dynamic(y = 150)
+block=Block(600,600, 60, 100, engine)
+goal=Goal(1000, 620, 50, 50, engine, "grey")
+character=Player(engine)

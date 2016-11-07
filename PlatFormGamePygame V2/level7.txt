@@ -1,0 +1,11 @@
+block=Block(0, 700, 1100, 50, engine)
+block=Block(-50, -50, 1200, 50, engine)
+block=Block(-50, 0, 50, 750, engine)
+block=Block(1100,0, 50, 750, engine)
+
+block=Block(930, 500, 100, 20, engine)
+block=Block(350, 600, 10, 100, engine)
+enemy=Enemy(30, 180, 20, 20, engine, dynamic=True)
+
+goal=Block(530, 240, 50, 50, engine, canvas.grey, goal = True)
+character=Player(engine)

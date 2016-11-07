@@ -1,0 +1,12 @@
+block=Block(0, 700, 1100, 50, engine)
+block=Block(0, -50, 1100, 50, engine)
+block=Block(-50, 0, 50, 700, engine)
+block=Block(1100,0, 50, 700, engine)
+
+character=Player(engine)
+block=Block(430, 670, 90, 5, engine)
+chaser=Block(530, 500, 50, 50, engine, "green", 1,True)
+chaser=Block(530, 550, 50, 50, engine, "green", 1,True)
+chaser=Block(530, 600, 50, 50, engine, "green", 1,True)
+chaser=Block(530, 650, 50, 50, engine, "green", 1,True)
+goal=Block(530, 240, 50, 50, engine, "grey", goal = True, dynamic = True)

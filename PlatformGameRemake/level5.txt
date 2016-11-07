@@ -1,0 +1,9 @@
+block=Block(0, 700, 1100, 50, engine)
+block=Block(-50, 0, 50, 700, engine)
+block=Block(1100,0, 50, 700, engine)
+
+character=Player(300, 660, engine)
+block=Block(450, 300, 50, 10, engine)
+block=Block(450, 500, 50, 10, engine)
+block=Block(300, 600, 50, 10, engine)
+goal=Block(850, 100, 50, 50, engine, "grey", goal = True)

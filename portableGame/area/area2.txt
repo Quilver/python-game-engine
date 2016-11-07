@@ -1,0 +1,6 @@
+b = Background(engine, canvas)
+block=Block(0, 700, 1100, 50, engine, canvas)
+block=Block(-50, 0, 50, 700, engine, canvas)
+block=Block(1100,0, 50, 700, engine, canvas)
+goal=Goal(1000, 620, 50, 50, engine, canvas, canvas.grey)
+character=Player(engine, canvas)

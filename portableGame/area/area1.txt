@@ -1,0 +1,11 @@
+b = Background(engine, canvas)
+c= Candle(engine, canvas, 100, 500)
+c= Candle(engine, canvas, 200, 500)
+c= Candle(engine, canvas, 300, 500)
+
+e = Enemy(20, 300, 100, 100, engine, canvas)
+block=Block(0, 700, 1100, 50, engine, canvas)
+block=Block(-50, 0, 50, 700, engine, canvas)
+block=Block(1100,0, 50, 700, engine, canvas)
+goal=Goal(1000, 620, 50, 50, engine, canvas, canvas.grey)
+character=Player(engine, canvas)

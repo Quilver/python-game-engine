@@ -1,0 +1,4 @@
+character=Player()
+block=Block(450, 300)
+chaser=Block(530, 300, 50, 50, "green", True)
+goal=Block(850, 240, 50, 50, "grey")

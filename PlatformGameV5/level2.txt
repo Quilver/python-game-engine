@@ -1,0 +1,4 @@
+block=Block(600,600, 10, 100)
+block=Block(800,600, 70, 5)
+goal=Block(1000, 400, 50, 50, "grey")
+character=Player()

@@ -1,0 +1,17 @@
+block=Block(0, 700, 1100, 50, engine)
+block=Block(-50, -50, 1200, 50, engine)
+block=Block(-50, 0, 50, 750, engine)
+block=Block(1100,0, 50, 750, engine)
+
+block=Block(500, 600, 50, 10, engine)
+block=Block(350, 500, 50, 10, engine)
+block=Block(500, 400, 50, 10, engine)
+block=Block(350, 300, 50, 10, engine)
+block=Block(500, 200, 150, 10, engine)
+block=Block(550,210, 50, 440, engine)
+block=Block(600, 600, 50, 10, engine)
+block=Block(600, 440, 50, 10, engine)
+block=Block(700, 400, 50, 10, engine)
+
+goal=Block(1050, 300, 50, 50, engine, canvas.grey, goal = True)
+character=Player(engine)
